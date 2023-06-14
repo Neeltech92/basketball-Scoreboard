@@ -9,9 +9,25 @@ body {
     font-weight: 700;
     letter-spacing: 0em;
     text-align: center;
-}
-h3 {
     font-family: Verdana;
+}
+
+h1 {
+    font-size: 50px;
+    position: relative;
+}
+
+h1::before {
+    content: "";
+    position: absolute;
+    width: 48%;
+    height: 15px;
+    background-color: #F94F6D;
+    color: white;
+    top: 60px;
+}
+
+h3 {
     font-size: 40px;
     margin-top: 40px;
     margin-bottom: 10px;
